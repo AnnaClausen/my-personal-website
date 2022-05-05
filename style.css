@@ -1,13 +1,139 @@
 body {
-    background: #E7EFE1;
+  background-color: #f6f6f6;
+}
+
+.content {
+  max-width: 960px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #f6f6f6;
+  max-width: 500px;
+  margin: auto;
   }
 
-  h1 {
-    color: #191919;
-    font-size:36px;
-  }
-  
-  p {
-    color:#191919;
-    font-size: 14px;
-  }
+/* Style the links inside the navigation bar */
+.topnav a {
+  color: black;
+  text-align: center;
+  padding: 30px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: #898989;
+  text-decoration: underline;
+}
+
+/* Style the header */
+.header {
+  display: grid;
+  height: 500px;
+  align-content: center;
+  justify-content: center;
+  grid-template-columns: auto auto;
+  grid-column-gap: 100px;
+  background-color: #f6f6f6;
+  padding: 100px;
+}
+
+.header-left {
+  grid-column: 1 / 1;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.header-right {
+  grid-column: 2 / 2;
+}
+
+.center-section {
+  text-align: center;
+  padding: 30px;
+}
+
+.three-column {
+  display: grid;
+  height: 500px;
+  align-content: center;
+  justify-content: center;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 30px;
+  background-color: #f6f6f6;
+  padding-bottom: 30px;
+}
+
+.three-column-right {
+  grid-column: 3 / 3;
+  text-align: left;
+  align-content: center;
+  justify-content: center;
+}
+
+.three-column-center {
+  grid-column: 2 / 2;
+  text-align: left;
+  align-content: center;
+  justify-content: center;
+}
+
+.three-column-left {
+  grid-column: 1 / 1;
+  align-content: center;
+  justify-content:center;
+}
+
+h1 {
+  font-family: 'Lora', serif;
+  font-size: 100px
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase; 
+}
+
+h4 {
+  font-family: 'Lora', serif;
+  font-size: 40px;
+}
+
+p, li, dd {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+ul {
+  line-height:2;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+dt {
+  font-family:'Lora', serif;
+  font-size: 20px;
+}
+
+
+
+
+
+
