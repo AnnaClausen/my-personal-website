@@ -68,7 +68,7 @@ body {
   height: 500px;
   align-content: center;
   justify-content: center;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto 425px auto;
   grid-column-gap: 30px;
   background-color: #f6f6f6;
   padding-bottom: 30px;
@@ -117,7 +117,7 @@ h4 {
 
 p, li, dd {
   font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 ul {
